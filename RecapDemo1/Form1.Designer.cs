@@ -1,5 +1,5 @@
 ﻿
-namespace RecapDemo
+namespace RecapDemo1
 {
     partial class Form1
     {

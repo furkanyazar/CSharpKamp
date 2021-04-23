@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RecapDemo
+namespace RecapDemo1
 {
     public partial class Form1 : Form
     {
@@ -21,7 +21,7 @@ namespace RecapDemo
         {
             GenerateButtons();
         }
-        
+
         private void GenerateButtons()
         {
             int top = 0, left = 0;
