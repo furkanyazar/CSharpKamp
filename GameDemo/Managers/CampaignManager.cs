@@ -8,11 +8,10 @@ namespace GameDemo.Managers
 {
     class CampaignManager : ICampaignService
     {
-        public void Add(Campaign campaign, Game game)
+        public void Add(Campaign campaign)
         {
-            game.Campaigns.Add(campaign);
-            game.Price -= game.Price * campaign.Discount / 100;
-            Console.WriteLine(game.Name + " adlı oyuna " + campaign.Name + " adlı kampanya eklendi");
+            campaign.Game.Price -= campaign.Game.Price * campaign.Discount / 100;
+            Console.WriteLine(campaign.Name + " adlı kampanya eklendi");
         }
 
         public void Delete(Campaign campaign)
