@@ -7,7 +7,7 @@ namespace GameDemo.Services
 {
     interface IOrderService
     {
-        void Add(Order order, List<Game> games);
+        void Add(Order order);
         void Delete(Order order);
     }
 }

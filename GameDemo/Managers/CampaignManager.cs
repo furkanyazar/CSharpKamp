@@ -11,6 +11,7 @@ namespace GameDemo.Managers
         public void Add(Campaign campaign, Game game)
         {
             game.Campaigns.Add(campaign);
+            game.Price -= game.Price * campaign.Discount / 100;
             Console.WriteLine(game.Name + " adlı oyuna " + campaign.Name + " adlı kampanya eklendi");
         }
 
