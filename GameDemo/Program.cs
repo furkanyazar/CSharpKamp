@@ -9,7 +9,7 @@ namespace GameDemo
     {
         static void Main(string[] args)
         {
-            Gamer gamer1 = new Gamer { Id = 1, Firstname = "Furkan", LastName = "Yazar", DateOfBirth = new DateTime(1998, 5, 10), IdentityNumber = "37985023748" };
+            Gamer gamer1 = new Gamer { Id = 1, Firstname = "Furkan", LastName = "Yazar", DateOfBirth = new DateTime(1990, 1, 1), IdentityNumber = "12345678910" };
             List<Gamer> gamers = new List<Gamer> { gamer1 };
             GamerManager gamerManager = new GamerManager(new GamerValidationManager());
             foreach (var gamer in gamers)
