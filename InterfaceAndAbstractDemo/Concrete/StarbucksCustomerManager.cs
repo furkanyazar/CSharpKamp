@@ -23,7 +23,6 @@ namespace InterfaceAndAbstractDemo.Concrete
             {
                 throw new Exception("Not a valid person");
             }
-
         }
     }
 }

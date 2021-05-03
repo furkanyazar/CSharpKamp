@@ -11,7 +11,7 @@ namespace InterfaceAndAbstractDemo
         static void Main(string[] args)
         {
             BaseCustomerManager customerManager = new NeroCustomerManager(new MernisServiceAdapter());
-            customerManager.Save(new Customer { DateOfBirth = new DateTime(1998, 5, 10), FirstName = "Furkan", LastName = "Yazar", NationalityId = "37985023748" });
+            customerManager.Save(new Customer { DateOfBirth = new DateTime(1990, 1, 1), FirstName = "Furkan", LastName = "Yazar", NationalityId = "12345678910" });
             Console.ReadLine();
         }
     }
