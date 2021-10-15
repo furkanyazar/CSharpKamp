@@ -1,10 +1,8 @@
-﻿using System;
-
-namespace OOP1
+﻿namespace OOP1
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Product product1 = new Product();
             product1.Id = 1;

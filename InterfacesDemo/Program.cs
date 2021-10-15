@@ -2,9 +2,9 @@
 
 namespace InterfacesDemo
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             IWorker[] workers = new IWorker[3]
             {
@@ -31,22 +31,22 @@ namespace InterfacesDemo
         }
     }
 
-    interface IWorker
+    internal interface IWorker
     {
         void Work();
     }
 
-    interface IEat
+    internal interface IEat
     {
         void Eat();
     }
 
-    interface ISalary
+    internal interface ISalary
     {
         void GetSalary();
     }
 
-    class Manager : IWorker, IEat, ISalary
+    internal class Manager : IWorker, IEat, ISalary
     {
         public void Eat()
         {
@@ -64,7 +64,7 @@ namespace InterfacesDemo
         }
     }
 
-    class Worker : IWorker, IEat, ISalary
+    internal class Worker : IWorker, IEat, ISalary
     {
         public void Eat()
         {
@@ -82,7 +82,7 @@ namespace InterfacesDemo
         }
     }
 
-    class Robot : IWorker
+    internal class Robot : IWorker
     {
         public void Work()
         {

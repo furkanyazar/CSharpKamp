@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GameDemo.Entities
+﻿namespace GameDemo.Entities
 {
-    class Campaign
+    internal class Campaign
     {
         public int Id { get; set; }
         public string Name { get; set; }

@@ -5,9 +5,9 @@ using System.Collections.Generic;
 
 namespace GameDemo
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Gamer gamer1 = new Gamer { Id = 1, Firstname = "Furkan", LastName = "Yazar", DateOfBirth = new DateTime(1990, 1, 1), IdentityNumber = "12345678910" };
             List<Gamer> gamers = new List<Gamer> { gamer1 };

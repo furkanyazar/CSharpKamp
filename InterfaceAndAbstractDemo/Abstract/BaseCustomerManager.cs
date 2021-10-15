@@ -1,5 +1,5 @@
-﻿using System;
-using InterfaceAndAbstractDemo.Entities;
+﻿using InterfaceAndAbstractDemo.Entities;
+using System;
 
 namespace InterfaceAndAbstractDemo.Abstract
 {

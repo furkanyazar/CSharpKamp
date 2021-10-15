@@ -2,9 +2,9 @@
 
 namespace GenericsIntro
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             MyList<string> isimler = new MyList<string>();
 

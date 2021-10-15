@@ -2,9 +2,9 @@
 
 namespace Interfaces
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // INTRO
             //PersonManager personManager = new PersonManager();
@@ -30,14 +30,14 @@ namespace Interfaces
         }
     }
 
-    interface IPerson
+    internal interface IPerson
     {
         int Id { get; set; }
         string FirstName { get; set; }
         string LastName { get; set; }
     }
 
-    class Customer : IPerson
+    internal class Customer : IPerson
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
@@ -45,7 +45,7 @@ namespace Interfaces
         public string Address { get; set; }
     }
 
-    class Student : IPerson
+    internal class Student : IPerson
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
@@ -53,7 +53,7 @@ namespace Interfaces
         public string Department { get; set; }
     }
 
-    class PersonManager
+    internal class PersonManager
     {
         public void Add(IPerson person)
         {

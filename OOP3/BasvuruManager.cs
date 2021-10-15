@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace OOP3
 {
-    class BasvuruManager
+    internal class BasvuruManager
     {
         public void BasvuruYap(IKrediManager krediManager, List<ILoggerService> loggerServices)
         {

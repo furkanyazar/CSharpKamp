@@ -1,12 +1,10 @@
 ﻿using GameDemo.Entities;
 using GameDemo.Services;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace GameDemo.Managers
 {
-    class GameManager : IGameService
+    internal class GameManager : IGameService
     {
         public void Add(Game game)
         {

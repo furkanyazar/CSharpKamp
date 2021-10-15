@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace GameDemo.Entities
 {
-    class Order
+    internal class Order
     {
         public int Id { get; set; }
         public Gamer Gamer { get; set; }

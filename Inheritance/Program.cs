@@ -2,9 +2,9 @@
 
 namespace Inheritance
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Person[] people = new Person[3]
             {
@@ -20,19 +20,19 @@ namespace Inheritance
         }
     }
 
-    class Person
+    internal class Person
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
     }
 
-    class Customer : Person
+    internal class Customer : Person
     {
         public string City { get; set; }
     }
 
-    class Student : Person
+    internal class Student : Person
     {
         public string Department { get; set; }
     }

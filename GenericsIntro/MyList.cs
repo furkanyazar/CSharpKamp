@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GenericsIntro
+﻿namespace GenericsIntro
 {
-    class MyList<T>
+    internal class MyList<T>
     {
-        T[] items;
+        private T[] items;
 
         public MyList()
         {

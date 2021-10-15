@@ -1,6 +1,6 @@
-﻿using System;
-using InterfaceAndAbstractDemo.Abstract;
+﻿using InterfaceAndAbstractDemo.Abstract;
 using InterfaceAndAbstractDemo.Entities;
+using System;
 
 namespace InterfaceAndAbstractDemo.Concrete
 {

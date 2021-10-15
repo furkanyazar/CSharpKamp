@@ -1,12 +1,10 @@
 ﻿using GameDemo.Entities;
 using GameDemo.Services;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace GameDemo.Managers
 {
-    class OrderManager : IOrderService
+    internal class OrderManager : IOrderService
     {
         public void Add(Order order)
         {

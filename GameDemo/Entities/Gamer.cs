@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace GameDemo.Entities
 {
-    class Gamer
+    internal class Gamer
     {
         public int Id { get; set; }
         public string Firstname { get; set; }

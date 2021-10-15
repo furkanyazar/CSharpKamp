@@ -2,9 +2,9 @@
 
 namespace Interfaces2
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //IPersonManager customerManager = new CustomerManager();
             //customerManager.Add();
@@ -18,13 +18,14 @@ namespace Interfaces2
             projectManager.Add(new InternManager());
         }
 
-        interface IPersonManager
+        private interface IPersonManager
         {
             void Add();
+
             void Update();
         }
 
-        class CustomerManager : IPersonManager
+        private class CustomerManager : IPersonManager
         {
             public void Add()
             {
@@ -37,7 +38,7 @@ namespace Interfaces2
             }
         }
 
-        class InternManager : IPersonManager
+        private class InternManager : IPersonManager
         {
             public void Add()
             {
@@ -50,7 +51,7 @@ namespace Interfaces2
             }
         }
 
-        class EmployeeManager : IPersonManager
+        private class EmployeeManager : IPersonManager
         {
             public void Add()
             {
@@ -63,7 +64,7 @@ namespace Interfaces2
             }
         }
 
-        class ProjectManager
+        private class ProjectManager
         {
             public void Add(IPersonManager personManager)
             {

@@ -1,12 +1,10 @@
 ﻿using GameDemo.Entities;
 using GameDemo.Services;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace GameDemo.Managers
 {
-    class CampaignManager : ICampaignService
+    internal class CampaignManager : ICampaignService
     {
         public void Add(Campaign campaign)
         {

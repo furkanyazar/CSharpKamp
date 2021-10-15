@@ -1,5 +1,5 @@
-﻿using System;
-using InterfaceAndAbstractDemo.Abstract;
+﻿using InterfaceAndAbstractDemo.Abstract;
+using System;
 
 namespace InterfaceAndAbstractDemo.Entities
 {
@@ -10,6 +10,5 @@ namespace InterfaceAndAbstractDemo.Entities
         public string LastName { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string NationalityId { get; set; }
-
     }
 }

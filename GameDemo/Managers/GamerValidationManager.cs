@@ -1,13 +1,10 @@
 ﻿using GameDemo.Entities;
 using GameDemo.Services;
 using MernisServiceReference;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace GameDemo.Managers
 {
-    class GamerValidationManager : IGamerValidationService
+    internal class GamerValidationManager : IGamerValidationService
     {
         public bool Validate(Gamer gamer)
         {

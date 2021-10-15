@@ -1,14 +1,12 @@
 ﻿using GameDemo.Entities;
 using GameDemo.Services;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace GameDemo.Managers
 {
-    class GamerManager : IGamerService
+    internal class GamerManager : IGamerService
     {
-        IGamerValidationService _gamerValidationService;
+        private IGamerValidationService _gamerValidationService;
 
         public GamerManager(IGamerValidationService gamerValidationService)
         {

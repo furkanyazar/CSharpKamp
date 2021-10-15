@@ -1,10 +1,8 @@
-﻿using System;
-
-namespace OOP2
+﻿namespace OOP2
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //Furkan Yazar
             GercekMusteri musteri1 = new GercekMusteri();
